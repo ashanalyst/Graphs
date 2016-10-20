@@ -1,0 +1,205 @@
+@import url( //fonts.googleapis.com/css?family=PT+Serif|PT+Serif:b|PT+Serif:i|PT+Sans|PT+Sans:b );
+html {
+	min-width: 1040px;
+}
+.ocks-org body {
+	background: rgb(252, 252, 250); margin: 1em auto 4em; width: 960px; color: rgb(51, 51, 51); font-family: "PT Serif", serif; position: relative;
+}
+.ocks-org header {
+	font-family: "PT Sans", sans-serif;
+}
+.ocks-org footer {
+	font-family: "PT Sans", sans-serif;
+}
+.ocks-org aside {
+	font-family: "PT Sans", sans-serif;
+}
+.ocks-org h1 {
+	font-family: "PT Sans", sans-serif;
+}
+.ocks-org h2 {
+	font-family: "PT Sans", sans-serif;
+}
+.ocks-org h3 {
+	font-family: "PT Sans", sans-serif;
+}
+.ocks-org h4 {
+	font-family: "PT Sans", sans-serif;
+}
+.ocks-org h1 {
+	color: rgb(0, 0, 0);
+}
+.ocks-org h2 {
+	color: rgb(0, 0, 0);
+}
+.ocks-org h3 {
+	color: rgb(0, 0, 0);
+}
+.ocks-org h4 {
+	color: rgb(0, 0, 0);
+}
+.ocks-org header {
+	color: rgb(99, 99, 99);
+}
+.ocks-org footer {
+	color: rgb(99, 99, 99);
+}
+h1 {
+	margin: 0.3em 0px 0.1em; letter-spacing: -2px; font-size: 64px; font-weight: 300;
+}
+h2 {
+	margin-top: 2em;
+}
+h1 {
+	text-rendering: optimizeLegibility;
+}
+h2 {
+	text-rendering: optimizeLegibility;
+}
+h2 a[name] {
+	padding: 0px 0.3em; right: 100%; color: rgb(204, 204, 204); position: absolute;
+}
+h2 a[id] {
+	padding: 0px 0.3em; right: 100%; color: rgb(204, 204, 204); position: absolute;
+}
+header {
+	font-size: small;
+}
+footer {
+	font-size: small;
+}
+.ocks-org header aside {
+	margin-right: 0.5em; float: left;
+}
+.ocks-org footer aside {
+	margin-right: 0.5em; float: left;
+}
+.ocks-org header aside::after {
+	padding-left: 0.5em; content: "/";
+}
+.ocks-org footer aside::after {
+	padding-left: 0.5em; content: "/";
+}
+footer {
+	margin-top: 8em;
+}
+h1 ~ aside {
+	width: 180px; right: 0px; font-size: small; position: absolute;
+}
+.attribution {
+	font-size: small; margin-bottom: 2em;
+}
+body > p {
+	line-height: 1.5em;
+}
+li > p {
+	line-height: 1.5em;
+}
+body > p {
+	width: 720px;
+}
+body > blockquote {
+	width: 640px;
+}
+blockquote q {
+	font-style: oblique; display: block;
+}
+ul {
+	padding: 0px;
+}
+li {
+	width: 690px; margin-left: 30px;
+}
+a {
+	color: steelblue;
+}
+a:not(:hover) {
+	text-decoration: none;
+}
+pre {
+	font-family: "Menlo", monospace;
+}
+code {
+	font-family: "Menlo", monospace;
+}
+textarea {
+	font-family: "Menlo", monospace;
+}
+code {
+	line-height: 1em;
+}
+textarea {
+	font-size: 100%;
+}
+body > pre {
+	margin: 2em 0px 2em -20px; padding-left: 18px; border-left-color: rgb(204, 204, 204); border-left-width: 2px; border-left-style: solid;
+}
+.html .value {
+	color: rgb(117, 107, 177);
+}
+.javascript .string {
+	color: rgb(117, 107, 177);
+}
+.javascript .regexp {
+	color: rgb(117, 107, 177);
+}
+.html .tag {
+	color: rgb(49, 130, 189);
+}
+.css .tag {
+	color: rgb(49, 130, 189);
+}
+.javascript .keyword {
+	color: rgb(49, 130, 189);
+}
+.comment {
+	color: rgb(99, 99, 99);
+}
+.html .doctype {
+	color: rgb(49, 163, 84);
+}
+.javascript .number {
+	color: rgb(49, 163, 84);
+}
+.html .attribute {
+	color: rgb(230, 85, 13);
+}
+.css .attribute {
+	color: rgb(230, 85, 13);
+}
+.javascript .class {
+	color: rgb(230, 85, 13);
+}
+.javascript .special {
+	color: rgb(230, 85, 13);
+}
+svg {
+	font: 10px/normal sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+.axis path {
+	fill: none; stroke: #000; shape-rendering: crispEdges;
+}
+.axis line {
+	fill: none; stroke: #000; shape-rendering: crispEdges;
+}
+sup {
+	line-height: 0;
+}
+sub {
+	line-height: 0;
+}
+q::before {
+	content: "“";
+}
+q::after {
+	content: "”";
+}
+blockquote q {
+	line-height: 1.5em; display: inline;
+}
+blockquote q::before {
+	content: "";
+}
+blockquote q::after {
+	content: "";
+}
